@@ -1,0 +1,95 @@
+.card {
+  position: relative;
+  width: 317px;
+  height: 780px;
+  background-color: #1a1b21;
+  border-radius: 10px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info-image {
+  object-fit: cover;
+}
+
+.info-name {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.info-role {
+  margin-top: 6.19px;
+  margin-bottom: 0;
+  font-size: 12.8px;
+  color: #f3bf99;
+}
+
+.info-website {
+  margin-top: 8.81px;
+  margin-bottom: 24px;
+  font-size: 10.24px;
+  color: #f5f5f5;
+}
+
+.info-link {
+  padding: 9px 20px 9px 20px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.info-link--email {
+  margin-right: 17px;
+  color: #374151;
+  background-color: #ffffff;
+}
+
+.info-link--email::before {
+  content: url('./assets/Icon.svg');
+  margin-right: 9.6px;
+}
+
+.info-link--linkedin {
+  color: #ffffff;
+  background-color: #5093e2;
+}
+
+.info-link--linkedin::before {
+  content: url('./assets/linkedin.svg');
+  margin-right: 9.6px;
+  vertical-align: middle;
+}
+
+.section {
+  margin-top: 33px;
+  padding: 0 34px 0 36px;
+}
+
+.section-title {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #f5f5f5;
+}
+
+.section-text {
+  margin: 0;
+  max-width: 247px;
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #dcdcdc;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+}
